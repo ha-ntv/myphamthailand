@@ -1,0 +1,255 @@
+.mainmenu-style2{
+
+	display:table-cell;
+
+	vertical-align: middle;
+
+	height: 112px;
+
+}
+
+.mainmenu-style2 .box-item{
+
+	display:table-cell;
+
+	vertical-align: middle;
+
+}
+
+.mainmenu-style2  .iconbox {
+
+    background: none repeat scroll 0 0 #FFFFFF;
+
+    border: 1px solid #E1E1E1;
+
+    border-radius: 20px 20px 20px 20px;
+
+    display: inline-block;
+
+    padding: 8px;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+.mainmenu-style2 .box-item:hover  .iconbox {
+
+    border: 1px solid #e56564;
+
+    
+
+}
+
+.mainmenu-style2 .box-item  .fa {
+
+	color: #5C676E;
+
+    font-size: 16px;
+
+    text-align: center;
+
+    width: 16px;
+
+}
+
+.mainmenu-style2 .box-item:hover  .fa {
+
+	color: #e56564;
+
+}
+
+ .mainmenu-style2 .box-item .media-body {
+
+    border-right: 1px dotted #CECECE;
+
+    margin-left: 10px;
+
+    margin-right: 40px;
+
+    padding-right: 40px;
+
+    position: relative;
+
+    transition: all .6s ease-in-out;
+
+}
+
+@media only screen and (max-width:1200px){
+
+	.mainmenu-style2 .box-item .media-body {
+
+	    margin-right: 30px;
+
+	    padding-right: 30px;
+
+	}
+
+}
+
+@media only screen and (max-width:1100px){
+
+	.mainmenu-style2 .box-item .media-body {
+
+	    margin-right: 20px;
+
+	    padding-right: 20px;
+
+	    
+
+	}
+
+}
+
+@media only screen and (max-width:1000px){
+
+	.mainmenu-style2 .box-item .media-body {
+
+	    margin-right: 10px;
+
+	    padding-right: 10px;
+
+	    
+
+	}
+
+}
+
+ .mainmenu-style2 .box-last-item .media-body {
+
+     border-right: medium none;
+
+     margin-right: 4px;
+
+     padding-right: 0px;
+
+}
+
+.mainmenu-style2 .box-item .media-body h4 {
+
+    margin: 0;
+
+}
+
+.mainmenu-style2 .box-item:hover .media-body  a {
+
+	color:#e56564;
+
+    text-decoration: none;
+
+}
+
+.mainmenu-style2 .box-item .media-body h4 span {
+
+    font-family: MyriadPro-Regular;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+}
+
+.mainmenu-style2 .box-item  .media-body small {
+
+    color: #7F7F7F;
+
+    font-size: 13px;
+
+    text-transform: none;
+
+    white-space: nowrap;
+
+}
+
+.mainmenu-style2 .box-item  .media-body  .care {
+
+    background: url("../images/icon_down.png") no-repeat scroll left center;
+
+    bottom: 0;
+
+    padding: 0 4px;
+
+    position: absolute;
+
+    right: 0;
+
+    text-indent: -9999px;
+
+}
+
+.box-location{
+
+	cursor: pointer;
+
+}
+
+.box-location .list-location {
+
+ 	background: none repeat scroll 0 0 #fff;
+
+    border-radius: 6px;
+
+    box-shadow: 1px 3px 5px #333;
+
+    display: none;
+
+    margin-top: -18px;
+
+    position: absolute;
+
+    top: 92px;
+
+    z-index: 9999;
+
+}
+
+.box-location:hover .list-location{
+
+	display: block;
+
+}
+
+.box-location .list-location .column{
+
+	width: 100%;
+
+}
+
+.mainmenu-style2 .box-location .list-location .fa {
+
+    color: #fff;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    width: auto;
+
+}
+
+.mainmenu-style2 .box-location:hover .list-location .fa {
+
+    color: #fff;
+
+}
+
+.mainmenu-style2 .box-location  .adrress_content .adrress-heading {
+
+     padding: 0 10px;
+
+}
+
+.mainmenu-style2 .box-location  .adrress-box {
+
+    padding: 4px 10px 0;
+
+}
+
+.mainmenu-style2 .box-location  .adrress-box:hover {
+
+ 	background: #f58589;
+
+}

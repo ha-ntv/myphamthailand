@@ -1,0 +1,92 @@
+.ddsmoothmenu ul{
+	z-index:100;
+	list-style-type: none;
+	margin: 0;
+	padding:5px 0 0 0;
+}
+
+/*Top level list items*/
+.ddsmoothmenu ul li{
+	position: relative;
+	display: inline;
+	float: right;
+	cursor: pointer;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+
+}
+
+.ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	color:#676565;
+	display: block;
+	padding:8px 15px;
+	font-size:1.2em;
+}
+
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li:hover a{
+   color:#FFF;
+   background:#c54133;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;	
+	padding-top:0;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+	float: left;
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align:left;
+	
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+	background:#c54133;
+	display: block;
+	width: 180px !important;
+    padding: 8px !important;
+	margin: 0 !important;
+	color: #FFF !important;
+	text-transform: capitalize !important;
+	height:35px !important;
+}
+.ddsmoothmenu ul li ul li:hover a{
+	background:#eb5669;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+
+
+.toplevelshadow{ /*shadow opacity for NON CSS3 capable browsers. Doesn't work in IE*/
+opacity: 0.8;
+}

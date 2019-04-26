@@ -1,0 +1,154 @@
+.newslist_tabs .nav-tabs {
+
+    background: none repeat scroll 0 0 #F7F7F7;
+
+    border: medium none;
+
+    margin-bottom: 10px;
+
+}
+
+.newslist_tabs .nav-tabs > li > a {
+
+    border:none;
+
+    border-left: medium none;
+
+    border-right: medium none;
+
+    border-top: 3px solid #F7F7F7;
+
+    border-radius: 0px;
+
+    font-family: MyriadPro-Cond;
+
+    font-size: 20px;
+
+    color: #5A5A5A;
+
+      white-space: nowrap;
+
+}
+
+
+
+.newslist_tabs .nav-tabs > li.active > a, 
+
+.newslist_tabs .nav-tabs > li.active > a:hover, 
+
+.newslist_tabs .nav-tabs > li.active > a:focus ,
+
+.newslist_tabs .nav-tabs > li > a:hover {
+
+    background-color: transparent;
+
+    border-left: medium none;
+
+    border-right: medium none;
+
+    border-top: 3px solid #e56564;
+
+    color: #e56564;
+
+    cursor: pointer;
+
+}
+
+.newslist_tabs .carousel-inner{
+
+  	width: auto;
+
+}
+
+/*
+
+.newslist_tabs .carousel-inner > .item{
+
+	-webkit-transition: 2s ease;
+
+  	transition: 2s ease ;
+
+}
+
+*/
+
+.newslist_tabs .carousel-control.left {
+
+	background-image: none;
+
+}
+
+.newslist_tabs .carousel-control.right {
+
+  background-image: none;
+
+}
+
+
+
+.newslist_tabs .carousel-control {
+
+  width:5%;
+
+}
+
+.newslist_tabs .glyphicon {
+
+    background: none repeat scroll 0 0 #323536;
+
+    border-radius: 18px 18px 18px 18px;
+
+    color: #FFFFFF;
+
+    margin-top: -20px;
+
+  	padding: 6px 0;
+
+    text-align: center;
+
+    width: 32px;
+
+}
+
+.newslist_tabs .glyphicon-chevron-left{
+
+	  left: 0% !important;
+
+}
+
+.newslist_tabs .glyphicon-chevron-right{
+
+	left: auto !important;
+
+    right: 0 !important;
+
+}
+
+.newslist_tabs .media-box {
+
+    background: none repeat scroll 0 0 #F7F7F7;
+
+    border-radius: 2px 2px 2px 2px;
+
+    border-radius: 4px ;
+
+}
+
+.newslist_tabs .media-box img{
+
+    border-radius: 4px ;
+
+}
+
+.newslist_tabs .media-body {
+
+    padding: 10px 10px 0 10px;
+
+}
+
+.newslist_tabs .media-heading a{
+
+	font-weight: bold;	
+
+}
+

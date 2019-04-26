@@ -1,0 +1,20 @@
+.jcarousel-wrapper{margin:0px 0px 0px 0;position:relative;border-radius:0px;padding:0px 0px;width:100%;}.jcarousel-wrapper a:hover{text-decoration:none;}.jcarousel{position:relative;overflow:hidden;width:100%;}.jcarousel ul{width:20000em;position:relative;list-style:none;margin:0 0 0 0px;padding:0;}.jcarousel li{height:76px;float:left;margin-right:10px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;}.jcarousel li .icon-video{left:50%;margin-left:-16px;margin-top:-18px;position:absolute;top:50%;}
+.jcarousel .img-thumb{
+	border:1px solid #ebeef2;
+	display:block;
+	max-height:100%;
+	padding:2px;
+	width:98px;
+}
+*,*:before,*:after{box-sizing:border-box;}*,*:before,*:after{box-sizing:border-box;}
+.jcarousel-control-prev,.jcarousel-control-next{
+	background-image:url("../images/jcarousel-control.gif");
+	background-color:rgba(0,0,0,0.6);
+	background-repeat:no-repeat;border-radius:27px;
+	height:40px;
+	margin-top:-28px;
+	position:absolute;top:50%;
+	width:40px;
+	z-index:1;
+}
+.jcarousel-control-prev:hover,.jcarousel-control-next:hover{background-color:rgba(0,0,0,0.8);}.jcarousel-control-prev{background-position:12px center;left:-16px;}.jcarousel-control-next{background-position:-16px center;right:-16px;}

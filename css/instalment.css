@@ -1,0 +1,101 @@
+.block_onlinesupport{border:1px solid #e1e1e1;}
+.block_onlinesupport .block_title{background:none repeat scroll 0 0 #f7f7f7;margin:0;padding:12px 10px;}
+.block_onlinesupport .block_title span{color:#e56564;font-family:MyriadPro-BoldCond;font-size:18px;text-transform:uppercase;}
+.block_onlinesupport .arrow-right{border-bottom:22px solid #fff;border-left:22px solid #f7f7f7;border-top:22px solid #fff;height:0;width:0;}
+.table-instalment-pack{border:1px solid #e56564;}.table-instalment-pack thead,.table-instalment-pack tr{border-top:1px solid #ebeef2;}
+.table-instalment-pack thead tr{border-top:1px solid #e56564;}
+.table-instalment-pack thead label{margin:6px 10px;font-family:MyriadPro-BoldCond;font-size:18px;margin:8px 20px;padding-left:34px;white-space:nowrap;}
+.table-instalment-pack thead #mortgage{background:url(../images/icon_mortgage.png) no-repeat;}
+.table-instalment-pack thead #prove{background:url(../images/icon_prove.png) no-repeat;}.table-instalment-pack thead #notarized{background:url(../images/icon_notarized.png) no-repeat;}
+@media only screen and(max-width:600px){.table-instalment-pack .suppose{display:inline-block;width:100%;}}
+.table-instalment-pack #product-content{text-align:center;}
+
+.table-instalment-pack .product-img{float:left;width:50%;text-align:right;padding-right:20px;}
+.table-instalment-pack #product-description{float:right;width:50%;text-align:left;}
+.table-instalment-pack .name a{font-size:12px;font-weight:bold;}
+.table-instalment-pack .price span,.table-instalment-pack .discount span{color:#e56564;font-size:13px;font-weight:bold;}
+.table-instalment-pack #product_text, .table-instalment-pack #inputStringtragop{padding:4px 10px;width:300px;}
+#suggestionstragop {
+	width:300px !important;
+	margin:0 auto !important;
+}
+@media only screen and (max-width:480px){
+	#suggestionstragop, .table-instalment-pack #inputStringtragop {
+		width:200px !important;
+	}
+}
+
+.table-instalment-pack .select-box{background:url("../images/iocn_drop_down.png") no-repeat scroll right 10px center;border:1px solid #bdbdbd;overflow:hidden;width:220px;margin:10px auto;}
+.table-instalment-pack .select-box select{background:none;border:none;color:#333;padding:4px 8px;width:120%;}
+.table-instalment-pack .td-left{display:inline-block;text-align:left;width:210px;margin:4px 0;}
+.table-instalment-pack .td-right{color:#e56564;display:inline-block;font-weight:bold;text-align:right;width:160px;margin:4px 0;}
+.table-instalment-pack .td-note{text-align:left;width:370px;}
+.table-instalment-pack .td-hotline{background:none repeat scroll 0 0 #e56564;border-radius:4px;margin-bottom:24px;padding:6px;width:280px;}
+.table-instalment-pack .td-hotline a{color:#fff;font-family:MyriadPro-BoldCond;font-size:18px;margin-bottom:24px;text-transform:uppercase;}
+
+.table-instalment-process,.table-instalment-ask{border:1px solid #eceff3;}.table-instalment-procedures{display:none;}.table-instalment-process thead,.table-instalment-ask thead thead{border-bottom:1px solid #eceff3;}
+.table-instalment-process thead label,.table-instalment-ask thead label,.table-instalment-procedures thead label{
+margin:6px 10px;font-family:MyriadPro-BoldCond;font-size:18px;margin:4px 0;color:#e56564;text-transform:uppercase;
+}
+.table-instalment-pack .content,.table-instalment-process .content,.table-instalment-ask .content,.table-instalment-procedures .content{margin:16px;}.table-instalment-process label{display:block;}.table-instalment-process .inner{min-height:100px;}@media only screen and(max-width:1200px){.table-instalment-process .div-td{display:block;border-bottom:1px solid #eceff3;}.table-instalment-process .content{display:table;width:100%;}.table-instalment-process .inner{display:table-cell;width:50%;padding-right:20px;vertical-align:top;}}@media only screen and(max-width:600px){.table-instalment-process .div-td{display:block;border-bottom:1px solid #eceff3;}.table-instalment-process .content{display:block;width:100%;}.table-instalment-process .inner{display:block;width:100%;}}
+
+#instalment_order .modal-header{background:none repeat scroll 0 0 #e56564;border:medium none;padding:8px;}#instalment_order .modal-header .close{background:url("../images/icon_close.png") no-repeat scroll 0 0;margin-right:-26px;margin-top:-24px;opacity:1;padding:18px;text-indent:-9999px;}#instalment_order .modal-title span{color:#fff;font-family:MyriadPro-BoldCond;font-size:18px;text-transform:uppercase;}#instalment_order .modal-body{padding:0;}#instalment_order .media-box,#instalment_order .media-content{padding:10px 30px;}#instalment_order #city{border:1px solid #bdbdbd;color:#686868;margin-bottom:10px;padding-left:10px;width:190px;height:23px;}#instalment_order #select_sex{border:1px solid #bdbdbd;color:#686868;margin-bottom:10px;padding-left:10px;width:70px;height:23px;float:left;}#instalment_order #sender_name{width:140px;}#instalment_order .input_text{border:1px solid #bdbdbd;color:#686868;margin-bottom:10px;padding-left:10px;width:100%;}#instalment_order #submitbt_instalment{border:1px solid #e56564;background:#e56564;border-radius:4px;font-family:MyriadPro-BoldCond;color:#fff;display:inline-block;margin-bottom:12px;text-transform:uppercase;width:100%;height:34px;font-size:18px;}#instalment_order p{font-size:12px;}
+
+
+.onlinesupport_inner{display:table;margin:0 auto;}.onlinesupport_inner .show-support li{float:left;margin-right:50px;}.onlinesupport_inner .title_content{color:#7c7c7c;font-family:MyriadPro-BoldCond;font-size:16px;font-weight:bold;margin-right:20px;padding-top:10px;text-transform:uppercase;margin-left:-50px;}.onlinesupport_inner .avata{border-radius:32px 32px 32px 32px;}.onlinesupport_inner .media{margin-top:0}
+
+
+.priceGop {
+    color: #f9060c;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+.LabelTraGop{
+	width:33%;
+	float:left;
+	text-align:center;
+}
+
+.TragopProducts{
+	width:50%;
+	text-align:center;
+	
+}
+.TragopFl{
+	float:left;
+}
+
+.Tragop4B{
+	width:25%;
+}
+
+@media only screen and (max-width:768px){
+	.table-instalment-pack .td-left {
+		float:left;
+		width:50%;
+	}
+	.table-instalment-pack .td-right {
+		float:left;
+		width:50%;
+	}
+	
+	.table-instalment-pack .td-note {
+		width: 100%;
+	}
+	.table-instalment-pack .td-hotline {
+		width: 80%;
+		margin-left:10%;
+		margin-right:10%;
+	}
+
+	.LabelTraGop{
+		float:none;
+		text-align:left;
+	}
+		
+	.TragopFl{
+		float:none;
+		width:100%;
+	}
+}

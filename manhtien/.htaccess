@@ -1,0 +1,80 @@
+Options +FollowSymLinks
+
+
+
+RewriteEngine On
+
+
+
+RewriteBase /
+
+
+
+RewriteCond %{HTTP_HOST} ^vietanhmobile.com [nocase]
+
+
+
+RewriteRule ^(.*)$ http://www.vietanhmobile.com/$1 [last,redirect=301]
+
+
+
+ErrorDocument 404 http://www.vietanhmobile.com/404/
+
+
+
+RewriteRule ^admin-vietanhmobilecom admindoaibiet.php
+
+RewriteRule ^ban-do-da-nang map-da-nang.php
+
+RewriteRule ^ban-do map.php
+
+
+
+RewriteRule ^index.html index.php
+
+
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/$ index.php?cat1=$1
+
+RewriteRule ^([a-zA-Z0-9\-]+).html$ index.php?unique_key=$1
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+).html$ index.php?cat1=$1&unique_key=$2
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/$ index.php?cat1=$1&cat2=$2
+
+
+
+
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+).html$ index.php?cat1=$1&cat2=$2&unique_key=$3
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/$ index.php?cat1=$1&cat2=$2&id=$3
+
+
+
+
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/$ index.php?cat1=$1&cat2=$2&id=$3&qty=$4
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/$ index.php?cat1=$1&cat2=$2&id=$3&qty=$4&color=$5
+
+
+
+RewriteRule ^([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/([a-zA-Z0-9\-]+)/$ index.php?cat1=$1&cat2=$2&id=$3&qty=$4&color=$5&size=$6
+
+
+

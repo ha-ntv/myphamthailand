@@ -1,0 +1,169 @@
+#owl-video {
+
+	margin-bottom: 10px;
+
+	position: relative;
+
+}
+
+
+
+#owl-video .item {
+
+	position: relative;
+
+}
+
+#owl-video .item .icon-video {
+
+    left: 50%;
+
+    position: absolute;
+
+    top: 50%;
+
+    margin-top: -32px;
+
+    margin-left: -26px;
+
+}
+
+#owl-video h3{
+
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+
+    bottom: 0;
+
+    color: #fff;
+
+    font-family: MyriadPro-Light;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    left: 0;
+
+    margin: 0;
+
+    padding: 8px 20px;
+
+    position: absolute;
+
+    width: 100%;
+
+}
+
+
+
+#owl-video #bar {
+
+	width: 0%;
+
+	max-width: 100%;
+
+	height: 4px;
+
+	background: #7fc242;
+
+}
+
+#owl-video #progressBar {
+
+	width: 100%;
+
+	background: #EDEDED;
+
+	display: none;
+
+}
+
+.owl-pagination {
+
+	text-align: right;
+
+}
+
+.owl-controls {
+
+    margin-top: 0 !important;
+
+    position: absolute;
+
+    width: 100%;
+
+    bottom: 0;
+
+    padding: 6px 10px 6px ;
+
+}
+
+.owl-pagination .owl-page span {
+
+	background: #869791 !important;
+
+	border: 2px solid #869791;
+
+	 opacity: 1 !important;
+
+}
+
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+
+   background: #e56564 !important;
+
+   border: 2px solid #fff;
+
+}
+
+.owl-buttons{
+
+	display: none;
+
+	position: absolute;
+
+}
+
+
+
+#pav-video .list-inline {
+
+   	margin-left: -5px;
+
+    margin-right: -5px;
+
+}
+
+#pav-video .list-inline > li {
+
+    padding-left: 4px;
+
+    position: relative;
+
+}
+
+#pav-video .list-inline  li .icon-video{
+
+    left: 50%;
+
+    position: absolute;
+
+    top: 50%;
+
+    margin-left: -16px;
+
+    margin-top: -18px;
+
+}
+
+#pav-video iframe  {
+
+    max-width: 100%;
+
+}
+
+#pav-video .list-inline .selected img {
+
+	opacity:0.8;
+
+}

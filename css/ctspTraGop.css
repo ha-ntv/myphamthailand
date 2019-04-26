@@ -1,0 +1,222 @@
+h1.tragop {
+    color: #e56564;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+	padding:5px 0 10px 15px;
+}
+.LabelTraGopCtsp{
+	display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    margin:10px 0 10px 10px;
+    padding: 0 15px;
+	background:#90C;
+	color:#FFF;
+}
+.colors1{
+ 	background: #dd0000 none repeat scroll 0 0;
+}
+
+.colors2{
+ 	background: #fead18 none repeat scroll 0 0;
+}
+
+.colors3{
+ 	background: #4daa00 none repeat scroll 0 0;
+}
+.TragopProductsCT{
+	float:right;
+	width:40%;
+	background: #fafafa none repeat scroll 0 0;
+    box-shadow: 6px 0 6px -4px #dfdfdf inset;
+}
+.tragop-right{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	line-height:24px;
+}
+.tragop-right label {
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    width: 100px;
+}
+
+.tragop-right span.status {
+    color: #e56564;
+	font-size:18px;
+}
+.tragop-right span.status1{
+    color: #e56564;
+	font-size:1.1em;
+}
+
+h1.tragop {
+    color: #e56564;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+	padding:5px 0 10px 15px;
+}
+.LabelTraGopCtsp{
+	display: inline-block;
+    font-size: 14px;
+    line-height: 32px;
+    margin:10px 0 10px 10px;
+    padding: 0 15px;
+	background:#90C;
+	color:#FFF;
+}
+.colors1{
+ 	background: #dd0000 none repeat scroll 0 0;
+}
+
+.colors2{
+ 	background: #fead18 none repeat scroll 0 0;
+}
+
+.colors3{
+ 	background: #4daa00 none repeat scroll 0 0;
+}
+.TragopProductsctL{
+	float:left;
+	width:60%;
+	text-align:justify;
+}
+
+	.TragopProductsctL .product-img-tragop {
+		float: left;
+		padding-right: 5px;
+		text-align: right;
+		width: 40%;
+	}
+	.TragopProductsctL .descriptiontgctsp {
+		float: left;
+		text-align: left;
+		width: 60%;
+		text-align:left;
+		/*height:195px;*/
+		overflow:hidden;
+	}
+
+.TragopProductsctR{
+	float:right;
+	width:40%;
+	background: #fafafa none repeat scroll 0 0;
+    box-shadow: 6px 0 6px -4px #dfdfdf inset;
+}
+.tragop-right{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	line-height:24px;
+}
+.tragop-right label {
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    width: 110px;
+}
+
+.tragop-right span.tgprice{
+    color: #1388bc;
+	font-size:1.2em;
+}
+.tragop-right span.tgpricevnd{
+    color: #1388bc;
+	font-size:1.1em;
+}
+
+@-webkit-keyframes glowingtragop {
+	 0% { color: #F8CD0A; } 
+	 50% { color: #e56564;  } 
+	 100% { color: #4daa00 ;  } 
+ }
+ @-moz-keyframes glowingtragop { 
+	 0% { color: #F8CD0A;  } 
+	 50% { color: #e56564;  }
+	 100% { color: #4daa00 ;  } 
+ }
+ @-o-keyframes glowingtragop { 
+	 0% { color: #F8CD0A; } 
+	 50% { color: #e56564; } 
+	 100% { color: #4daa00 ;  } 
+ }
+ @keyframes glowingtragop { 
+	 0% { color: #F8CD0A;  } 
+	 50% { color: #e56564;  }
+	 100% { color: #4daa00 ;  } 
+ } 
+ 
+.tragopbank-title{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+	font-size:1.4em;
+	color:#e56564;
+	padding:10px 0;
+	text-transform:uppercase;
+	
+	-webkit-animation: glowingtragop 1500ms infinite;
+	 -moz-animation: glowingtragop 1500ms infinite; 
+	 -o-animation: glowingtragop 1500ms infinite; 
+	 animation: glowingtragop 1500ms infinite;
+}
+
+.tragopbank{
+	clear:both;
+	width:100%;
+	overflow:hidden;
+}
+	.tragopbank .logo-item {
+		border-right: 1px solid #e5e5e5;
+		float: left;
+		padding: 10px;
+		width: 33.333%;
+	}
+	.tragopbank .logo-item:last-child {
+		border-right: medium none;
+	}
+	
+	.tragopbank .logo-item .tgbutton {
+		font-weight: 600;
+		margin: 10px auto;
+		text-align: center;
+		text-transform: uppercase;
+	}
+		.tragopbank .logo-item .tgbutton a, .tragopbank .logo-item .tgbutton span{
+			background: #0d7aaa none repeat scroll 0 0;
+    		border-radius: 4px;
+			color: #fff;
+			cursor: pointer;
+			padding: 8px 12px;
+			display: -moz-grid;
+			min-width:172px;
+		}
+@media only screen and (max-width:768px){
+	.TragopProductsctL{
+		float:none;
+		width:100%;
+	}
+	.TragopProductsctR{
+		float:none;
+		width:100%;
+		padding-top:5px;
+	}
+}
+@media only screen and (max-width:600px){
+	.product-img-tragop, .descriptiontgctsp{
+		float:none !important;
+		width:100% !important;
+	}
+	.tragopbank .logo-item {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width:480px){
+	
+}

@@ -1,0 +1,62 @@
+.block_products_filter{
+	border:1px solid #e1e1e1;
+	margin-bottom:0;
+	margin-left:-1px;position:relative;
+	min-height:45px;
+	border-bottom:none;
+}
+.block_title{
+	background:none repeat scroll 0 0 #f7f7f7;
+	margin:0;padding:8px 10px;
+}
+.block_title span{
+	color:#e56564;
+	font-family:MyriadPro-BoldCond;
+	font-size:18px;
+	text-transform:uppercase;
+}
+.block_products_filter .arrow-right{
+	border-bottom:18px solid #fff;
+	border-left:18px solid #f7f7f7;
+	border-top:18px solid #fff;
+	height:0;width:0;
+}.block_products_filter .field_item{
+	float:left;position:relative;
+	padding:10px 12px;
+}
+.block_products_filter .field_name{background:url("../images/arrow.png") no-repeat scroll right center;padding-right:20px;cursor:pointer;white-space:nowrap;}.block_products_filter .field_label{background:none repeat scroll 0 0 #fff;border-bottom:1px solid #ccc;border-left:1px solid #ccc;border-right:1px solid #ccc;display:none;position:absolute;top:40px;left:0;width:180px;z-index:1;}.block_products_filter .field_item:hover .field_label{display:block;}
+.block_products_filter .field_label h3, .field_label .searchPrice, .field_label .search_title{
+	margin:0;
+	padding:10px 24px;
+}
+.block_products_filter .field_label h3:hover, .block_products_filter .field_label .searchPrice:hover, .field_label .search_title:hover
+{
+	background:#f5f5f5;
+	font-weight:bold;
+}.block_products_filter .field_label.actived h3>a,.field_label h3:hover a{font-weight:bold;color:#252525;}.block_products_filter .field_label.actived h3>a{background:url("../images/delete-icon.png") no-repeat scroll right center;padding-right:32px;}.block_products_filter .sort-follow{position:absolute;right:0;}
+.block_products_filter .sort-follow ul{
+	background:none repeat scroll 0 0 #fff;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	display:none;
+	padding-bottom:10px;
+	position:absolute;
+	top:40px;
+	right:-1px;
+	width:180px;
+	z-index:1;
+}
+.block_products_filter .sort-follow li{padding:4px 24px;}.block_products_filter .sort-follow li:hover{background:#f5f5f5;}.block_products_filter .sort-follow li:hover a{font-weight:bold;color:#252525;text-decoration:none;}.block_products_filter .sort-follow-active{padding:10px 18px;}.block_products_filter .sort-follow-active span{background:url("../images/arrow.png") no-repeat scroll right center;padding-right:20px;cursor:pointer;white-space:nowrap;}.block_products_filter .sort-follow:hover ul{display:block;}.field_label_checkbox h3{margin:-2px 20px 0 0;display:inline-block;}.field_label_checkbox h3 a{background:url("../images/icon_check.png") no-repeat scroll left center;display:block;padding-left:28px;}.field_label_checkbox h3.active a{background:url("../images/icon_check_active.png") no-repeat scroll left center;}
+.field_label_checkbox h3 span{
+	display:block;
+	color:#fff;
+	position:relative;
+	background:none repeat scroll 0 0 #989896;
+	border-radius:4px;
+	padding:0 10px;
+}
+.field_label_checkbox h3.active span{
+	background:none repeat scroll 0 0 #e56564;
+}
+.field_label_checkbox h3 .caret{border-bottom:5px solid transparent;border-right:6px solid #989896;border-top:5px solid transparent;left:-12px;position:absolute;top:6px;}.field_label_checkbox h3.active .caret{border-right:6px solid #e56564;}

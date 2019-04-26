@@ -1,0 +1,101 @@
+.product_manufactory .block_products_filter{
+	border-bottom: 1px solid #e1e1e1  ;
+	margin-bottom: 2px;
+}
+.product_manufactory  .group-title {
+    background: url("../images/arrow-title.png") no-repeat scroll 20px center rgba(0, 0, 0, 0);
+    border: 1px solid #e1e1e1;
+    font-family: MyriadPro-BoldCond;
+    font-size: 18px;
+    padding: 8px 50px;
+    text-transform: uppercase;
+}
+.product_manufactory  .products_list{
+	margin-bottom: 20px;
+	border-left: 1px solid #e1e1e1  ;
+}
+.product_manufactory .product,
+.product_manufactory .product.promotion_table {
+    background: none repeat scroll 0 0 #fff;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    float: left;
+    height: 250px;
+    position: relative;
+    width: 20%;
+}
+@media only screen and (max-width: 1200px) {
+
+	.product_manufactory .product,
+	.product_manufactory .product.promotion_table{
+	    width: 25%;
+	}
+}
+@media only screen   and (max-width: 900px) {
+	.product_manufactory .product,
+	.product_manufactory .product.promotion_table{
+	    width: 33.3333%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.product_manufactory .product,
+	.product_manufactory .product.promotion_table{
+	    width: 50%;
+	}
+}
+.product_manufactory .frame_inner {
+    padding: 20px 10px;
+    position: relative;
+}
+.product_manufactory .frame_img_cat img {
+    margin: 0 auto;
+}
+.product_manufactory .frame_title .name a {
+    font-size: 12px;
+    font-weight: bold;
+}
+.product_manufactory .frame_price .price span, .product_manufactory .frame_price .discount span {
+    color: #e56564;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.product_manufactory  .frame-hover {
+    background: none repeat scroll 0 0 rgba(248, 248, 248, 0.8);
+    border: 1px solid #ff8b00;
+    cursor: pointer;
+    display: none;
+    height: 250px;
+    left: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.product_manufactory .product:hover .frame-hover{
+    display: block;
+}
+@media only screen and (max-width:1200px){
+	.product_manufactory .product:hover .frame-hove{
+	    display: none;
+	}
+}
+.product_manufactory  .frame-hover .frame_color .color {
+     border: 1px solid;
+    display: inline-block;
+    height: 16px;
+    margin-right: 4px;
+    width: 16px;
+}
+.product_manufactory .frame-hover .frame_price {
+    margin-bottom: 10px;
+}
+.product_manufactory .divider {
+    border-top: 1px solid #e5b071;
+    min-height: 1px;
+    width: 100%;
+}
+.product_manufactory .frame_summary {
+    padding: 10px 0;
+}

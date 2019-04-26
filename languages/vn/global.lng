@@ -1,0 +1,58 @@
+﻿_Home=---------------------------------------------------------------------------
+VND=VNĐ
+No_date = Thông tin đang cập nhập!
+No_search = Không tìm thấy dữ liệu cần tìm!
+
+Tu_van=Tư vấn
+Gio_hang=Giỏ hàng
+Dang_nhap=Đăng nhập
+Dang_ky=Đăng ký
+
+Tong_luot_xem=Tổng lượt xem
+online=đang online
+Ban_do_den_van_phong=Bản đồ đến văn phòng
+
+Xem_tat_ca=xem tất cả
+Price=Giá
+_New=----------------------------------
+Cac_tin_khac=Các tin khác
+
+_Product=----------------------------------
+Mua_ngay=Mua ngay
+Thong_tin_san_pham=Thông tin sản phẩm
+Hinh_xem_them=hình xem thêm
+Phu_kien_mac_kem=Phụ kiện mặc kèm
+San_pham_cung_loai=Sản phẩm cùng loại
+Ma_sp=Mã sản phẩm
+_Comment=----------------------------------
+Binh_luan = bình luận
+
+_check_contact_us=----------------------------------
+THANKS = Xin chân thành cảm ơn bạn đã đến với chúng tôi!
+FullName=HỌ VÀ TÊN
+Username=USERNNAME
+Email=EMAIL
+
+Securty=XÁC NHẬN MÃ BÊN DƯỚI
+Address=ĐỊA CHỈ
+Phone=ĐIỆN THOẠI
+Content=NỘI DUNG
+Company=CÔNG TY
+
+NameValidate=Mời bạn nhập họ tên
+UserValidate=Mời bạn nhập username
+CompanyValidate=Mời bạn nhập công ty
+AddressValidate=Mời bạn nhập địa chỉ
+TitleValidate=Mời bạn nhập tiêu đề
+CompanyValidate=Mời bạn nhập tên công ty
+PwValidate=Mời bạn nhập mật khẩu
+PwValidateOld=Mời bạn nhập mật khẩu cũ
+PwcfValidate=Xác nhận mật khẩu không đúng
+SecurityValidate=Mã xác nhận không đúng
+
+PhoneValidate=Mời bạn nhập số điện thoại
+PhoneFormatValidate=Số điện thoại không đúng định dạng
+
+EmailValidate=Mời bạn nhập email
+EmailFormatValidate=Email không đúng định dạng
+ContentValidate=Mời bạn nhập nội dung

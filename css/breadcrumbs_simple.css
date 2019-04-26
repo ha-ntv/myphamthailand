@@ -1,0 +1,57 @@
+.breadcrumb {
+
+   padding: 0;
+
+	margin-bottom: 10px;
+
+}
+
+.breadcrumb{
+
+    float: left;
+
+    font-weight: normal;
+
+    margin: 2px  0;
+
+}
+
+.breadcrumbs_sepa {
+
+    background: url("../images/right_arrow.png") no-repeat scroll left center ;
+
+    float: left;
+
+    margin: 5px 5px 0;
+
+    padding: 0 4px ;
+
+    text-indent: -999px;
+
+}
+
+.breadcrumb a ,
+
+.breadcrumb span{
+
+     color: #0069B8;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+}
+
+.breadcrumb a:hover{
+
+ 	text-decoration: none;
+
+}
+
+.breadcrumb a span,
+
+.breadcrumb span{
+
+     color: #e56564;
+
+}

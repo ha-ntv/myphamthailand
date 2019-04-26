@@ -1,0 +1,121 @@
+
+
+/** Carousel **/
+
+
+
+.box_manf .jcarousel {
+
+    position: relative;
+
+    overflow: hidden;
+
+     width: 100%;
+
+}
+
+
+
+.box_manf .jcarousel ul {
+
+   	width: 20000em;
+
+    position: relative;
+
+    list-style: none;
+
+    margin: 0 0 0 0px;
+
+    padding: 0;
+
+}
+
+
+
+.box_manf .jcarousel li {
+
+    float: left;
+
+    margin-right: 10px;
+
+    -moz-box-sizing: border-box;
+
+    -webkit-box-sizing: border-box;
+
+    box-sizing: border-box;
+
+    height: 45px;
+
+}
+
+
+
+.box_manf .jcarousel img {
+
+    display: block;
+
+    max-height: 100%;
+
+    padding: 2px;
+
+}
+
+
+
+
+
+.box_manf .jcarousel-control-prev ,
+
+.box_manf .jcarousel-control-next{
+
+    background-image: url("../images/jcarousel-control.png") ;
+
+ 	background-repeat:no-repeat;
+
+    height: 40px;
+
+    margin-top: -20px;
+
+    position: absolute;
+
+    top: 50%;
+
+    width: 40px;
+
+    z-index: 1;
+
+}
+
+
+
+.box_manf .jcarousel-control-prev{
+
+ 	background-position:center  9px;
+
+    left: 0;
+
+}
+
+.box_manf .jcarousel-control-next {
+
+ 	background-position:center  -28px;
+
+    right: 0;
+
+}
+
+.box_manf .jcarousel-control-prev:hover{
+
+ 	background-position:center  -60px;
+
+    left: 0;
+
+}
+
+.box_manf .jcarousel-control-next:hover {
+
+ 	background-position:center  -92px;
+
+    right: 0;
+
+}

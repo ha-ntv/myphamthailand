@@ -1,0 +1,62 @@
+﻿_Tong_tin_chung=---------------------------------------------------------------------------
+VND = USD
+No_date = Data is updating!
+Ma_so = Code
+Gia = Price
+
+
+SEND = Send
+RESET = Reset
+
+Visit = Visitors
+Online = Online
+
+New_other = Other News 
+
+Search = Search keywords
+
+Sat_my_thuat = Fine art wrought iron
+Sat_dep_bach_hai = Beautiful wrought iron Bach Hai
+
+Ho_tro_truc_tuyen = support online 
+
+_Products=----------------------------------
+Product_name = Name
+Product_code = Code
+Thiet_ke = Designer
+Nha_sx = Maker
+Trien_khai_da = Installation
+Kich_thuoc = Dimension
+Hoan_thien = Finish
+Mo_ta = Description
+San_pham_cung_loai = Same
+
+_check_contact_us=----------------------------------
+THANKS = Welcome to Bach Hai. Thanks!
+
+MANDATORY = Please complete the information and send to us. * requirement.
+
+FullName = FullName
+Email = Email
+Title = Title
+Content = Content
+Company = Company Name
+Address = Address
+
+NameValidate = Please input your full name
+EmailValidate = Please input your email
+EmailFormatValidate = Format email is incorrect
+CompanyValidate = Please input your company
+AddressValidate = Please input your address
+TitleValidate = Please input your title
+ContentValidate = Please input your content
+
+PhoneValidate = Please input your phone number
+PhoneFormatValidate = Format phone number is incorrect
+
+_Error-404=----------------------------------
+Error_Text1 = Link beautiful iron Bach Hai
+Error_Text2 = This path does not exist, please return to
+Error_Text3 = Home Page
+
+Error_Text4 = 1. A bookmark / favorite old <br /> 2. A search engine is very old <br /> 3. Type the address incorrectly <br /> 4. You do not have access to this page <br /> 5. Resources required are not found <br /> 6. An error has occurred while processing your request.

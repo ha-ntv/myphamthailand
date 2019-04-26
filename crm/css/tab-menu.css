@@ -1,0 +1,95 @@
+.tabs-menu{
+	background:#ccc;
+	padding:10px 10px;
+}
+
+.tabs-menu section {
+  	display: none;
+	background: #fff none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 2px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+	margin: 0px 12px;
+	padding: 15px;
+	position: relative;
+}
+
+.tabs-menu input {
+  display: none;
+}
+
+.tabs-menu label {
+ 	text-align: center;
+  	color: #bbb;
+  	background: #ebebeb none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 3px 3px 0 0;
+	font-weight: bold;
+	line-height: 30px;
+	color: #333;
+    padding: 10px 10px;
+	
+}
+
+.tabs-menu label.label-tab1{
+	margin:0 5px 0 40px;
+}
+.tabs-menu label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.tabs-menu label[for*='1']:before {
+  content: '\f1cb';
+}
+
+.tabs-menu label[for*='2']:before {
+  content: '\f17d';
+}
+
+.tabs-menu label[for*='3']:before {
+  content: '\f16b';
+}
+
+.tabs-menu label[for*='4']:before {
+  content: '\f1a9';
+}
+
+.tabs-menu label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.tabs-menu input:checked + label {
+    background: #fff none repeat scroll 0 0;
+    position: relative;
+	position:relative;
+	z-index:10;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+  overflow:auto;
+  max-width:890px;
+  
+}
+
+@media screen and (max-width: 650px) {
+  .tabs-menu label {
+    font-size: 0;
+  }
+
+  .tabs-menu label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tabs-menu label {
+    padding: 15px;
+  }
+}

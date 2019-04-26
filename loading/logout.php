@@ -1,0 +1,9 @@
+<?php 
+	include_once("../include/config.php");
+	include_once("../functions/function.php");
+    unset($_SESSION['VIETANHMOBILE_MEMBER_ID']);
+    unset($_SESSION['VIETANHMOBILE_MEMBER_NAME']);
+    unset($_SESSION['VIETANHMOBILE_MEMBER_EMAIL']);
+    unset($_SESSION['VIETANHMOBILE_MEMBER_IMAGE']);
+    unset($_SESSION['VIETANHMOBILE_MEMBER_TYPE']);
+?>

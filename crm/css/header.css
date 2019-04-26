@@ -1,0 +1,20 @@
+.Header{
+	width:100%;
+	height:auto;
+	background:#FFF;
+	margin-bottom:20px;
+}
+.TopHeader{
+	margin:0 auto;
+	max-width:1200px;
+	height:45px;
+}
+	.TopHeader .Logo{
+		float:left;
+		margin:5px 0 0 0;
+		width:20%;
+	}
+	.TopHeader .RightTop{
+		float:right;
+		width:80%;
+	}

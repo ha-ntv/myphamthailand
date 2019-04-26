@@ -1,0 +1,192 @@
+@charset "utf-8";
+@font-face{
+ 	font-family:'FontAwesome';src:url('fonts/fontawesome-webfont.eot?v=4.1.0');src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.1.0') format('embedded-opentype'),url('fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),url('fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),url('fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome !important;
+    font-size:15px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: auto;
+	margin-right:2px;
+}
+.fa-eye::before{
+    content: "\f06e";
+}
+.fa-cube::before{
+    content: "";
+}
+.fa-exchange::before{
+	content: "\f0ec";
+}
+.fa-male::before{
+	content: "\f183";
+}
+.fa-usd::before{
+	content: "\f155";
+}
+.fa-usd-home::before{
+	content: "\f155";
+	font-size:14px;
+	margin-left:2px;
+}
+.fa-bar-chart::before{
+	content: "\f080";
+}
+.fa-th::before{
+	content: "\f00a";
+}
+.fa-tags::before{
+	content: "\f02c";
+}
+.fa-check-square-o::before{
+	content: "\f046";
+}
+.fa-wrench::before{
+	font-size:14px;
+	content: "\f1b8";
+}
+.fa-recycle::before{
+	font-size:14px;
+	content: "\f1b8";
+}
+.fa-caret-down::before{
+	font-size:12px;
+	content: "\f0d7";
+	margin:0 0 0 3px;
+}
+.fa-unlock-alt::before{
+	content: "\f13e";
+	margin-right:2px;
+}
+.fa-external-link::before{
+	content: "\f08e";
+	margin-right:2px;
+}
+
+.fa-wrench::before{
+	content: "\f0ad";
+	margin-right:2px;
+}
+.fa-file-text::before{
+	content: "\f15c";
+	margin-right:2px;
+}
+.fa-male::before{
+	content: "\f183";
+	margin-right:2px;
+}
+.fa-puzzle-piece::before{
+	content: "\f12e";
+	margin-right:2px;
+}
+.fa-trash::before{
+	content: "\f1f8";
+	margin-right:2px;
+}
+.fa-plus::before{
+	content: "\f067";
+	font-size:0.9em;
+}
+.fa-sign-in::before{
+	content: "\f090";
+	margin-right:2px;
+	font-size:0.9em;
+}
+.fa-sign-out::before{
+	content: "\f08b";
+	margin-right:2px;
+	font-size:0.9em;
+}
+
+.fa-trashlist::before{
+	content: "\f1f8";
+	margin-right:2px;
+	font-size:1.2em;
+}
+a:hover .fa-trashlist{
+	color:#d64457 ;
+}
+
+.fa-pencil-square-o::before{
+	content: "\f044";
+	margin-left:5px;
+	font-size:1.2em;
+}
+a:hover .fa-pencil-square-o{
+	color:#d64457 ;
+}
+
+.a-file-text-o::before{
+	content: "\f0f6";
+	margin-left:5px;
+	font-size:1.2em;
+}
+a:hover .fa-pencil-square-o{
+	color:#d64457 ;
+}
+
+.fa-floppy-o::before{
+	content: "\f0c7";
+}
+.fa-ban::before{
+	content: "\f05e";
+}
+.fa-search::before{
+	content: "\f002";
+}
+
+.fa-reply-all::before{
+	content: "\f122";
+	margin-left:2px;
+	font-size:1.4em;
+}
+
+.fa-user::before{
+	content: "\f007";
+	/*color:#d64457;*/
+}
+.fa-home::before{
+	content: "\f015";
+	color:#38b04a;
+}
+.fa-caret-right::before{
+	content: "\f0da";
+	color:#d64457;
+	font-size:1.2em;
+}
+.fa-caret-down::before{
+	content: "\f0d7";
+	color:#d64457;
+	font-size:1.2em;
+}
+
+.fa-caret-down1::before{
+	content: "\f0d7";
+	color:#d64457;
+	font-size:1.2em;
+}
+
+.fa-bell-o::before{
+	content: "\f0a2";
+	color:#676565;
+	font-size:1.2em;
+}
+.fa-lock::before{
+	content: "\f023";
+	color:#d64457;
+	font-size:1.3em;
+}
+
+.fa-map-marker::before{
+	content: "\f041";
+	margin-right:2px;
+	color: #d64457;
+}
+.fa-undo::before{
+	content: "\f0e2";
+}
+
